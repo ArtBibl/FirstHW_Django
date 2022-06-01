@@ -1,0 +1,91 @@
+
+header {
+    padding-left: 15px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(242, 250, 250);
+}
+
+main {
+    margin: 16px;
+}
+
+.nice_font {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    background-color: rgb(213, 223, 223);
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+li {
+    margin-top: 5px;
+    padding: 10px;
+    border: black solid 1px;
+}
+
+figcaption {
+    text-align: center;
+}
+.left {
+float: left; /* Выравнивание по левому краю */
+margin: 1em 2em 1em 1em; /* Отступ справа и снизу */
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin-left: 5px;
+}
+
+footer {
+    background-color: rgb(213, 223, 223);
+}
+
+h5 {
+    margin: 0px;
+    padding-left: 40px;
+}
+
+a.unvisited_unvisible {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a.button {
+    color:black; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    background:  rgb(162, 172, 172); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    border: 1px solid black;
+    border-radius: 3px;    
+} 
+a.button:hover { background:  rgb(125, 133, 133); } /* при наведении курсора мышки */
+a.button:active { background:  rgb(78, 82, 82); } /* при нажатии */
+
+.pic {
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin: 30px;
+    box-shadow:
+         /* inset 0 -3em 3em rgba(0,0,0,0.1), */
+              inset 0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,100.3);
+    font-family: 'Playfair Display', serif;
+}
+
+.center { 
+text-align: center; 
+}
